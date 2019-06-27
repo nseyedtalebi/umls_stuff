@@ -48,26 +48,43 @@ def get_from_uri(auth, uri, query={}):
     items = json.loads(r.text)
     return items["result"]
 
+def print_alt_def_list(search_terms):
+    for term in search_terms:
+        print(f"**** Results for '{term}' ****")
+        search_results = search(auth, term, page_size=5)
+        for search_result in search_results:
+            try:
+                concept_info = get_from_uri(auth, search_result['uri'])
+            except KeyError:
+                continue
+            if concept_info['definitions'] != 'NONE':
+                def_obj_list = get_from_uri(auth, 
+                                        concept_info['definitions'],
+                                        query={'pageNumber':1,'pageSize':5})
+                def_list = [def_obj['value'] for def_obj in def_obj_list]
+            else:
+                def_list = []
+            print(f"Concept Name:{concept_info['name']} ({concept_info['ui']})")
+            #print(f"Defs:{def_list}")
+            print("Semantic Types:")
+            for semantic_type_obj in concept_info['semanticTypes']:
+                print(f"    Type name:{semantic_type_obj['name']}")
+                print(f"    URI:{semantic_type_obj['uri']}")
+            print()
 
-search_terms = ['gallbladder','fallopian tube']
-for term in search_terms:
-    print(f"**** Results for '{term}' ****")
-    search_results = search(auth, term, page_size=5)
-    for search_result in search_results:
-        concept_info = get_from_uri(auth, search_result['uri'])
-        if concept_info['definitions'] != 'NONE':
-            def_obj_list = get_from_uri(auth, 
-                                    concept_info['definitions'],
-                                    query={'pageNumber':1,'pageSize':5})
-            def_list = [def_obj['value'] for def_obj in def_obj_list]
-        else:
-            def_list = []
-        print(f"Concept Name:{concept_info['name']} ({concept_info['ui']})")
-        #print(f"Defs:{def_list}")
-        print("Semantic Types:")
-        for semantic_type_obj in concept_info['semanticTypes']:
-            print(f"    Type name:{semantic_type_obj['name']}")
-            print(f"    URI:{semantic_type_obj['uri']}")
-        print()
-        #for concept in :
-        #print(f"Semantic Type Name:{concept['name']}")
+def gen_code_using_first_match(search_terms):
+    for term in search_terms:
+        search_results = search(auth, term, page_size=1)
+        search_result = search_results[0]
+        try:
+            concept_info = get_from_uri(auth, search_result['uri'])
+        except KeyError:
+            continue
+        print(f"Body_Site(description='{concept_info['name']}', parent=None, umls_id='{concept_info['ui']}').save()")
+
+with open('term_list.txt','r') as inf:
+    search_terms = [line.strip() for line in inf]
+
+gen_code_using_first_match(search_terms)
+
+

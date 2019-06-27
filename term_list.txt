@@ -1,0 +1,65 @@
+Adrenal gland
+Anus
+Appendix
+Bladder
+Biliary Tract
+Bone and Joints
+Appendicular
+Axial
+Cranial
+Gnathic
+Bone Marrow
+Central Nervous System
+Brain
+Meninges
+Spinal Cord
+Breast
+Colon (Large Intestine)
+Esophagus
+Fallopian Tube
+Gallbladder
+Head and Neck
+Eye and Orbit
+Larynx
+Oral Cavity Including Tongue
+Parathyroid Gland
+Pharynx
+Sinonasal Region
+Skin
+Thyroid Gland
+Heart and Blood Vessels
+Kidney
+Liver
+Lung
+Lymph Node
+Mediastinum
+Thymus
+Other
+Omentum or Mesentery
+Ovary
+Pancreas
+Penis
+Pleura
+Rectum
+Salivary Gland
+Skin and Adnexal Structures
+Small Intestine
+Duodenum
+Jejunum
+Ileum
+Soft Tissue
+Head and Neck
+Superficial Soft Tissue
+Deep Soft Tissue (of Extremities/Chest)
+Retroperitoneum
+Spleen
+Stomach
+Testis
+Prostate
+Ureter
+Uterus
+Uterine Cervix
+Endometrium
+Myometrium
+Vagina
+Vulva

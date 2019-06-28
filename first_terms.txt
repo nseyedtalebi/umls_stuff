@@ -1,0 +1,370 @@
+**** Results for 'Adrenal gland' ****
+Concept Name:Adrenal Glands (C0001625)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Anus' ****
+Concept Name:Anus (C0003461)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Appendix' ****
+Concept Name:Appendix (C0003617)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Bladder' ****
+Concept Name:Urinary Bladder (C0005682)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Biliary Tract' ****
+Concept Name:Biliary tract structure (C0005423)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Bone and Joints' ****
+Concept Name:bone and joint (C0545594)
+Semantic Types:
+    Type name:Body Space or Junction
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T030
+
+**** Results for 'Appendicular' ****
+Concept Name:Mucocele of appendix (C0026684)
+Semantic Types:
+    Type name:Disease or Syndrome
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T047
+
+**** Results for 'Axial' ****
+Concept Name:Axial (C0205131)
+Semantic Types:
+    Type name:Spatial Concept
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T082
+
+**** Results for 'Cranial' ****
+Concept Name:Bone structure of cranium (C0037303)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Gnathic' ****
+Concept Name:Gnathic osteosarcoma (C3494968)
+Semantic Types:
+    Type name:Neoplastic Process
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T191
+
+**** Results for 'Bone Marrow' ****
+Concept Name:Bone Marrow (C0005953)
+Semantic Types:
+    Type name:Tissue
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T024
+
+**** Results for 'Central Nervous System' ****
+Concept Name:Central Nervous System Stimulants (C0002763)
+Semantic Types:
+    Type name:Pharmacologic Substance
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T121
+
+**** Results for 'Brain' ****
+Concept Name:Brain (C0006104)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Meninges' ****
+Concept Name:Meninges (C0025285)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Spinal Cord' ****
+Concept Name:Spinal Cord (C0037925)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Breast' ****
+Concept Name:Breast (C0006141)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Colon (Large Intestine)' ****
+Concept Name:Intestine - Large Intestine - Colon (MMHCC) (C1522281)
+Semantic Types:
+    Type name:Tissue
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T024
+
+**** Results for 'Esophagus' ****
+Concept Name:Esophagus (C0014876)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Fallopian Tube' ****
+Concept Name:Fallopian Tubes (C0015560)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Gallbladder' ****
+Concept Name:Gallbladder (C0016976)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Head and Neck' ****
+Concept Name:Head and neck structure (C0460004)
+Semantic Types:
+    Type name:Body Location or Region
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T029
+
+**** Results for 'Eye and Orbit' ****
+Concept Name:Eye/Orbit (C3846141)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Larynx' ****
+Concept Name:Laryngeal Diseases (C0023051)
+Semantic Types:
+    Type name:Disease or Syndrome
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T047
+
+**** Results for 'Oral Cavity Including Tongue' ****
+**** Results for 'Parathyroid Gland' ****
+Concept Name:Parathyroid gland (C0030518)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Pharynx' ****
+Concept Name:Pharyngeal structure (C0031354)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Sinonasal Region' ****
+**** Results for 'Skin' ****
+Concept Name:Skin Specimen (C0444099)
+Semantic Types:
+    Type name:Body Substance
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T031
+
+**** Results for 'Thyroid Gland' ****
+Concept Name:Thyroid Gland (C0040132)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Heart and Blood Vessels' ****
+Concept Name:Blood vessel of heart (C3686473)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Kidney' ****
+Concept Name:Kidney (C0022646)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Liver' ****
+Concept Name:Liver (C0023884)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Lung' ****
+Concept Name:Lung (C0024109)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Lymph Node' ****
+Concept Name:lymph nodes (C0024204)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Mediastinum' ****
+Concept Name:Mediastinum (C0025066)
+Semantic Types:
+    Type name:Body Location or Region
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T029
+
+**** Results for 'Thymus' ****
+Concept Name:Thymus Extracts (C0040112)
+Semantic Types:
+    Type name:Biologically Active Substance
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T123
+
+**** Results for 'Other' ****
+Concept Name:Other (C0205394)
+Semantic Types:
+    Type name:Qualitative Concept
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T080
+
+**** Results for 'Omentum or Mesentery' ****
+Concept Name:Diseases and Syndromes of Peritoneum, Omentum and Mesentery (C0541426)
+Semantic Types:
+    Type name:Disease or Syndrome
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T047
+
+**** Results for 'Ovary' ****
+Concept Name:Ovary (C0029939)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Pancreas' ****
+Concept Name:Pancreas (C0030274)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Penis' ****
+Concept Name:penis (C0030851)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Pleura' ****
+Concept Name:Pleura (C0032225)
+Semantic Types:
+    Type name:Tissue
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T024
+
+**** Results for 'Rectum' ****
+Concept Name:Rectum (C0034896)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Salivary Gland' ****
+Concept Name:Salivary Glands (C0036098)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Skin and Adnexal Structures' ****
+**** Results for 'Small Intestine' ****
+Concept Name:small intestine and small intestine (C0545833)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Duodenum' ****
+Concept Name:Duodenum (C0013303)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Jejunum' ****
+Concept Name:Jejunum (C0022378)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Ileum' ****
+Concept Name:ileum (C0020885)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Soft Tissue' ****
+Concept Name:soft tissue (C0225317)
+Semantic Types:
+    Type name:Tissue
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T024
+
+**** Results for 'Head and Neck' ****
+Concept Name:Head and neck structure (C0460004)
+Semantic Types:
+    Type name:Body Location or Region
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T029
+
+**** Results for 'Superficial Soft Tissue' ****
+Concept Name:Superficial Soft Tissue Fibrosis (C1698669)
+Semantic Types:
+    Type name:Disease or Syndrome
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T047
+
+**** Results for 'Deep Soft Tissue (of Extremities/Chest)' ****
+**** Results for 'Retroperitoneum' ****
+Concept Name:Retroperitoneal Space (C0035359)
+Semantic Types:
+    Type name:Body Space or Junction
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T030
+
+**** Results for 'Spleen' ****
+Concept Name:Spleen (C0037993)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Stomach' ****
+Concept Name:Stomach (C0038351)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Testis' ****
+Concept Name:Testis (C0039597)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Prostate' ****
+Concept Name:Prostate (C0033572)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Ureter' ****
+Concept Name:Ureter (C0041951)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Uterus' ****
+Concept Name:Uterus (C0042149)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Uterine Cervix' ****
+Concept Name:Cervix Uteri (C0007874)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Endometrium' ****
+Concept Name:Endometrium (C0014180)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Myometrium' ****
+Concept Name:myometrium (C0027088)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Vagina' ****
+Concept Name:Vagina (C0042232)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+
+**** Results for 'Vulva' ****
+Concept Name:Vulva (C0042993)
+Semantic Types:
+    Type name:Body Part, Organ, or Organ Component
+    URI:https://uts-ws.nlm.nih.gov/rest/semantic-network/2019AA/TUI/T023
+

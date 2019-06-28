@@ -48,10 +48,10 @@ def get_from_uri(auth, uri, query={}):
     items = json.loads(r.text)
     return items["result"]
 
-def print_alt_def_list(search_terms):
+def print_alt_def_list(search_terms, results_per_term=5):
     for term in search_terms:
         print(f"**** Results for '{term}' ****")
-        search_results = search(auth, term, page_size=5)
+        search_results = search(auth, term, page_size=results_per_term)
         for search_result in search_results:
             try:
                 concept_info = get_from_uri(auth, search_result['uri'])
@@ -85,6 +85,6 @@ def gen_code_using_first_match(search_terms):
 with open('term_list.txt','r') as inf:
     search_terms = [line.strip() for line in inf]
 
-gen_code_using_first_match(search_terms)
+print_alt_def_list(search_terms,1)
 
 

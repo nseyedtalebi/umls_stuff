@@ -1,14 +1,14 @@
-from os import environ
+
 import json
 
 import requests
 
-from Authentication import Authentication
+from UMLSWebClient import UMLSWebClient
 
-version='current'
+version = 'current'
 uri = "https://uts-ws.nlm.nih.gov"
+#auth = UMLSWebClient()
 
-auth = Authentication(environ['UMLS_API_KEY'])
 
 def search(auth, search_string, start_page=1, page_size=25, page_limit=1):
     results = []
@@ -30,6 +30,7 @@ def search(auth, search_string, start_page=1, page_size=25, page_limit=1):
             break
     return results
 
+
 def get_cui_from_ui(auth, ui):
     content_endpoint = "/rest/content/current/CUI/"+str(ui)
     tgt = auth.gettgt()
@@ -40,6 +41,7 @@ def get_cui_from_ui(auth, ui):
     items  = json.loads(r.text)
     return items["result"]
 
+
 def get_from_uri(auth, uri, query={}):
     tgt = auth.gettgt()
     query['ticket'] = auth.getst(tgt)
@@ -48,9 +50,10 @@ def get_from_uri(auth, uri, query={}):
     items = json.loads(r.text)
     return items["result"]
 
+
 def print_alt_def_list(search_terms, results_per_term=5):
     for term in search_terms:
-        print(f"**** Results for '{term}' ****")
+        print("**** Results for '{}' ****".format(term))
         search_results = search(auth, term, page_size=results_per_term)
         for search_result in search_results:
             try:
@@ -64,13 +67,14 @@ def print_alt_def_list(search_terms, results_per_term=5):
                 def_list = [def_obj['value'] for def_obj in def_obj_list]
             else:
                 def_list = []
-            print(f"Concept Name:{concept_info['name']} ({concept_info['ui']})")
+            print("Concept Name:{} ({})".format(concept_info['name'], concept_info['ui']))
             #print(f"Defs:{def_list}")
             print("Semantic Types:")
             for semantic_type_obj in concept_info['semanticTypes']:
-                print(f"    Type name:{semantic_type_obj['name']}")
-                print(f"    URI:{semantic_type_obj['uri']}")
+                print("    Type name:{}".format(semantic_type_obj['name']))
+                print("    URI:{}".format(semantic_type_obj['uri']))
             print()
+
 
 def gen_code_using_first_match(search_terms):
     for term in search_terms:
@@ -80,11 +84,12 @@ def gen_code_using_first_match(search_terms):
             concept_info = get_from_uri(auth, search_result['uri'])
         except KeyError:
             continue
-        print(f"Body_Site(description='{concept_info['name']}', parent=None, umls_id='{concept_info['ui']}').save()")
-
-with open('term_list.txt','r') as inf:
-    search_terms = [line.strip() for line in inf]
-
-print_alt_def_list(search_terms,1)
+        print("Body_Site(description='{}', parent=None, umls_id='{}').save()".format(concept_info['name'],
+                                                                                     concept_info['ui']))
 
 
+if __name__ == "__main__":
+    with open('term_list.txt','r') as inf:
+        search_terms = [line.strip() for line in inf]
+
+    print_alt_def_list(search_terms,1)

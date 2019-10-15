@@ -40,10 +40,7 @@ class UMLSWebClient:
         self.tgt = self._get_tgt()
         assert(self.tgt is not None)
 
-    '''
-    HEY! The function below is currently BROKEN, but it was almost working.
-    It returns None when it should have results...'''
-    def crosswalk(self, code, source, target=None, page_number=1, page_size=25, page_limit=1):
+    def crosswalk(self, code, source, target=None, page_number=1, page_size=25, max_to_fetch=1):
         query_params = self._get_param_dict()
         if target is not None:
             query_params["targetSource"] = str(target)
@@ -55,6 +52,7 @@ class UMLSWebClient:
         )
         results = []
         cur_page_number = page_number
+        pages_fetched = 0
         while True:
             query_params['pageNumber'] = cur_page_number
             query_params['pageSize'] = page_size
@@ -64,9 +62,10 @@ class UMLSWebClient:
             items = json.loads(r.text)
             json_data = items["result"]
             results.extend(json_data)
-            if len(json_data) < page_size:
-                break
+            pages_fetched += 1
             cur_page_number += 1
+            if len(json_data) < page_size or pages_fetched > max_to_fetch:
+                break
         return results
 
     def search(self, search_string, input_type="atom", include_obsolete=False, include_suppressible=False,
@@ -86,6 +85,7 @@ class UMLSWebClient:
         query_params['includeSuppressible'] = "true" if include_suppressible else "false"
         results = []
         cur_page_number = page_number
+        pages_fetched = 0
         while True:
             query_params['ticket'] = self._get_st()
             query_params['pageNumber'] = cur_page_number
@@ -95,10 +95,11 @@ class UMLSWebClient:
             r.encoding = 'utf-8'
             items = json.loads(r.text)
             json_data = items["result"]
-            results.extend(json_data["results"])
-            if json_data["results"][0]["ui"] == "NONE" or cur_page_number > page_limit:
-                break
+            pages_fetched += 1
             cur_page_number += 1
+            if json_data["results"][0]["ui"] == "NONE" or pages_fetched > page_limit:
+                break
+            results.extend(json_data["results"])
         return results
 
     def get_cui_from_ui(self, ui):

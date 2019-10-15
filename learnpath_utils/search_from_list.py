@@ -3,8 +3,6 @@ import json
 
 import requests
 
-from UMLSWebClient import UMLSWebClient
-
 version = 'current'
 uri = "https://uts-ws.nlm.nih.gov"
 #auth = UMLSWebClient()
